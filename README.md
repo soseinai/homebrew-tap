@@ -1,4 +1,4 @@
-# soseinai Homebrew Tap
+# Sosein Homebrew Tap
 
 A [Homebrew](https://brew.sh) tap for [soseinai](https://sosein.ai) command-line tools.
 
