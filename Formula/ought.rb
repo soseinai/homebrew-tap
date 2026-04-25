@@ -1,28 +1,28 @@
 class Ought < Formula
   desc "Behavioral test framework powered by LLMs"
   homepage "https://sosein.ai/products/ought"
-  version "0.2.0-rc3"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/soseinai/ought/releases/download/v0.2.0-rc3/ought-aarch64-apple-darwin.tar.gz"
-      sha256 "da24268f852a4669ada7991d6c7692ce5c8d81661d3af566590d0a2a5dba4605"
+      url "https://github.com/soseinai/ought/releases/download/v0.2.0/ought-aarch64-apple-darwin.tar.gz"
+      sha256 "70882128a8b4c3ec0f89c2794ecdf9e592b542d12e64fc36176f1282faa153dc"
     end
     on_intel do
-      url "https://github.com/soseinai/ought/releases/download/v0.2.0-rc3/ought-x86_64-apple-darwin.tar.gz"
-      sha256 "548a3b8b3cedd5ae8a84cd3d420c7fbf6367b75d2c8b8c5dc6f09f7184888b99"
+      url "https://github.com/soseinai/ought/releases/download/v0.2.0/ought-x86_64-apple-darwin.tar.gz"
+      sha256 "6731256200371fff865c36e3cbd94fc208ed7f3ec89fb118455eec0fb37b098f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/soseinai/ought/releases/download/v0.2.0-rc3/ought-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e609a4b00f2cfe79bac44cc486c83c3495bdb08bbd27421ed93af353343a0536"
+      url "https://github.com/soseinai/ought/releases/download/v0.2.0/ought-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3ff151e2674ad57d3872b64f434ba64f0a18131f1badbecce969c2c31dab5527"
     end
     on_intel do
-      url "https://github.com/soseinai/ought/releases/download/v0.2.0-rc3/ought-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8cb65d1b634d81b0593f63680529a18985be29498ee2233e575b45808612cfe6"
+      url "https://github.com/soseinai/ought/releases/download/v0.2.0/ought-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c8310b36473bad93aad32c402f77fa113998d998a50424a78eed4aa013854044"
     end
   end
 
